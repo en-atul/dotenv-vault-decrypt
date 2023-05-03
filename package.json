@@ -1,0 +1,32 @@
+{
+  "name": "dotenv-vault-decrypt",
+  "version": "1.0.0",
+  "description": "assist in decrypting the vault keys and converting them into corresponding environment variables, which will then be saved to a .env file.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "javascript vault decrypt",
+    "react vault decrypt",
+    "react-native vault decrypt",
+    "vue vault decrypt",
+    "angular vault decrypt"
+  ],
+  "author": "atul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atul15r/dotenv-vault-decrypt/issues"
+  },
+  "homepage": "https://github.com/atul15r/dotenv-vault-decrypt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atul15r/dotenv-vault-decrypt.git"
+  },
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "types": "src/index.js"
+}
