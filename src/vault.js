@@ -105,10 +105,10 @@ function _debug(message) {
 function _dotenvKey() {
   try {
     if (
-      process.env.REACT_APP_DOTENV_KEY &&
-      process.env.REACT_APP_DOTENV_KEY.length > 0
+      process.env.DOTENV_KEY &&
+      process.env.DOTENV_KEY.length > 0
     ) {
-      return process.env.REACT_APP_DOTENV_KEY;
+      return process.env.DOTENV_KEY;
     }
     let env_path = path.resolve(process.cwd(), ".env");
     const parsed = parse(fs.readFileSync(env_path, { encoding: "utf-8" }));
