@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { writeFile } = require("fs");
 const { config } = require("./vault");
 

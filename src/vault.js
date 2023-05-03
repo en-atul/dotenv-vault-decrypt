@@ -112,7 +112,7 @@ function _dotenvKey() {
     }
     let env_path = path.resolve(process.cwd(), ".env");
     const parsed = parse(fs.readFileSync(env_path, { encoding: "utf-8" }));
-    if ("REACT_APP_DOTENV_KEY" in parsed) return parsed.REACT_APP_DOTENV_KEY;
+    if ("DOTENV_KEY" in parsed) return parsed.DOTENV_KEY;
     return "";
   } catch (err) {
     return "";

@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "assist in decrypting the vault keys and converting them into corresponding environment variables, which will then be saved to a .env file.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "./src",
   "keywords": [
-    "javascript vault decrypt",
-    "react vault decrypt",
-    "react-native vault decrypt",
-    "vue vault decrypt",
-    "angular vault decrypt"
+    "react",
+    "vue",
+    "angular",
+    "javascript",
+    "dotenv",
+    "dotenv-vault",
+    "svelte"
   ],
   "author": "atul",
   "license": "ISC",
