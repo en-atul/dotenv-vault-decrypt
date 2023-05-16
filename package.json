@@ -1,9 +1,10 @@
 {
   "name": "dotenv-vault-decrypt",
-  "version": "2.1.1",
+  "version": "1.0.1",
   "description": "assist in decrypting the vault keys and converting them into corresponding environment variables, which will then be saved to a .env file.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git add package.json && git commit -m $npm_package_version && git tag $npm_package_version HEAD && git push --tags"
   },
   "bin": "./src/index.js",
   "keywords": [
