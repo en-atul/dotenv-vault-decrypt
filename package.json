@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git add package.json && git commit -m $npm_package_version && git tag $npm_package_version HEAD && git push --tags",
-    "update:major": "npm version major"
+    "update:major": "npm version minor"
   },
   "bin": "./src/index.js",
   "keywords": [
