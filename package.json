@@ -1,6 +1,6 @@
 {
   "name": "dotenv-vault-decrypt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "assist in decrypting the vault keys and converting them into corresponding environment variables, which will then be saved to a .env file.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
