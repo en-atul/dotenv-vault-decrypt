@@ -3,9 +3,7 @@
   "version": "2.3.0",
   "description": "assist in decrypting the vault keys and converting them into corresponding environment variables, which will then be saved to a .env file.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postversion": "git add package.json && git commit -m $npm_package_version",
-    "update:major": "npm version minor"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./src/index.js",
   "keywords": [
