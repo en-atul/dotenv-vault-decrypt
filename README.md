@@ -12,7 +12,7 @@
     <img src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.svg" alt="dotenv" width="100" />
 
   </div>
-  <b>Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.</b>
+  <b>Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]</b>
   
 </a>
 <br/>
@@ -29,7 +29,7 @@
 <br>
 </div>
 
-# dotenv-vault-decrypt [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]
+# dotenv-vault-decrypt
 
 Dotenv Vault Decrypt package helps to generate `.env` (i.e. environment variables) file [`process.env`](https://nodejs.org/docs/latest/api/process.html#process_process_env) at build time for frontend framework/library by encrypting vault keys using one of the specific environment key.
 
