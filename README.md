@@ -29,7 +29,7 @@
 <br>
 </div>
 
-# dotenv-vault-decrypt
+# dotenv-vault-decrypt [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]
 
 Dotenv Vault Decrypt package helps to generate `.env` (i.e. environment variables) file [`process.env`](https://nodejs.org/docs/latest/api/process.html#process_process_env) at build time for frontend framework/library by encrypting vault keys using one of the specific environment key.
 
