@@ -12,13 +12,13 @@
     <img src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.svg" alt="dotenv" width="100" />
 
   </div>
-  <b>Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]</b>
+  <b>Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.</b>
   
 </a>
 <br/>
 
 <div>
-    <sup>Dotenv Vault Decrypt helps to decrypt the vault keys into environment variables.</sup>
+    <sup>Dotenv Vault Decrypt helps to decrypt the vault keys into environment variables. [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]</sup>
   </div>
 <sup>SUPPORTED</sup>
 
