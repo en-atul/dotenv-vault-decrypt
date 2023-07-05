@@ -1,4 +1,5 @@
 <div align="center">
+<h1>Secure Frontend Environment Variables</h1>
 <p>
   <sup>
     <a href="https://github.com/sponsors/motdotla">dotenv-vault-decrypt is inherited from Dotenv</a>
@@ -20,16 +21,16 @@
 <div>
     <sup>Dotenv Vault Decrypt helps to decrypt the vault keys into environment variables. [Stop Adding Multiple Environment Variables on Development Platform i.e. Gitlab/Netlify/BitBucket]</sup>
   </div>
-<sup>SUPPORTED</sup>
+<sup>Supports all javascript Framework/Library</sup>
 
-[![My Skills](https://skillicons.dev/icons?i=react,vue,nextjs,angular,svelte)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,nextjs,vue,nuxt,angular,svelte)](https://skillicons.dev)
 
 <br>
 <hr>
 <br>
 </div>
 
-# dotenv-vault-decrypt
+# `dotenv-vault-decrypt`
 
 Dotenv Vault Decrypt package helps to generate `.env` (i.e. environment variables) file [`process.env`](https://nodejs.org/docs/latest/api/process.html#process_process_env) at build time for frontend framework/library by encrypting vault keys using one of the specific environment key.
 
@@ -38,19 +39,20 @@ Dotenv Vault Decrypt package helps to generate `.env` (i.e. environment variable
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/axios?style=flat-square)](https://bundlephobia.com/package/axios@latest)
 [![npm downloads](https://img.shields.io/npm/dm/dotenv-vault-decrypt.svg?style=flat-square)](https://npm-stat.com/charts.html?package=dotenv-vault-decrypt) [![npm version](https://badge.fury.io/js/dotenv-vault-decrypt.svg)](https://badge.fury.io/js/dotenv-vault-decrypt)
 
-- [🌱 Install](#-install)
-- [🏗️ Usage (.env)](#%EF%B8%8F-usage)
-- [🚀 Deploying (.env.vault) 🆕](#-deploying)
-- [🌴 How it Works](#-examples)
+-   [🌱 Install](#-install)
+-   [🏗️ Usage (.env)](#%EF%B8%8F-usage)
+-   [🚀 Deploying (.env.vault) 🆕](#-deploying)
+-   [🌴 How it Works](#-examples)
 
 ## 🌱 Install
 
 ```bash
 # install locally (recommended)
 npm install dotenv-vault-decrypt --save
-```
 
-Or installing with yarn? `yarn add dotenv-vault-decrypt`
+#yarn
+yarn add dotenv-vault-decrypt
+```
 
 ## 🌴 How it Works
 
